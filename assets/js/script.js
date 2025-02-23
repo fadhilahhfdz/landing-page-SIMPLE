@@ -40,3 +40,10 @@ const swiper = new Swiper(".swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+function setFullHeight() {
+  document.querySelector('.full-height').style.height = window.innerHeight + 'px';
+}
+
+window.addEventListener('resize', setFullHeight);
+setFullHeight();

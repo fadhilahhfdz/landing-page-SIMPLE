@@ -5,6 +5,10 @@
   /* border: 1px solid red; */
 }
 
+body {
+  box-sizing: border-box;
+}
+
 main {
   background-color: rgb(235, 228, 220);
 }
